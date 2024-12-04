@@ -1,0 +1,52 @@
+header {
+    background: linear-gradient(90deg, #001B2F 0%, #005695 100%);
+    // color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+}
+
+.boxLivros {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.barraDeBusca {
+    border: solid #FFF;
+    width: 20%;
+    height: 6vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    margin-right: 1%;
+
+    input {
+        background-color: transparent;
+        border: none;
+        width: 100%;
+        height: 5vh;
+
+        &::placeholder{
+            color: #FFF;
+            font-size: 20px;
+        }
+    }
+
+    button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+}
+nav{
+    ul{
+        list-style-type: none;
+        padding-left: 0;
+        display: flex;
+        justify-content: space-between;
+        width: 30vw;
+    }
+}
